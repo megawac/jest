@@ -115,6 +115,7 @@ class Resolver {
     const paths = options.paths;
     try {
       const resv = options.browser ? browserResolve : resolve;
+      console.log(options);
       return resv.sync(
         path,
         {

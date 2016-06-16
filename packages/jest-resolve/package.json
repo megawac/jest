@@ -12,6 +12,9 @@
     "jest-haste-map": "^12.1.0",
     "resolve": "^1.1.6"
   },
+  "devDependencies": {
+    "jest-resolve-test": "*"
+  },
   "jest": {
     "rootDir": "./build",
     "testEnvironment": "node"
